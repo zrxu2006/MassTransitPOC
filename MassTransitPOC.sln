@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitPOC", "MassTransitPOC\MassTransitPOC.csproj", "{EAC68A2D-015B-49AC-8B27-3739BFA34816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitPOC.Tests", "MassTransitPOC.Tests\MassTransitPOC.Tests.csproj", "{CA6E9F18-F47D-4696-BE84-EA9A755138A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Core\Contracts.csproj", "{B90ADE63-836D-4AC3-A63F-AFA4018E01DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC68A2D-015B-49AC-8B27-3739BFA34816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC68A2D-015B-49AC-8B27-3739BFA34816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC68A2D-015B-49AC-8B27-3739BFA34816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC68A2D-015B-49AC-8B27-3739BFA34816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6E9F18-F47D-4696-BE84-EA9A755138A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6E9F18-F47D-4696-BE84-EA9A755138A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6E9F18-F47D-4696-BE84-EA9A755138A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6E9F18-F47D-4696-BE84-EA9A755138A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90ADE63-836D-4AC3-A63F-AFA4018E01DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90ADE63-836D-4AC3-A63F-AFA4018E01DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90ADE63-836D-4AC3-A63F-AFA4018E01DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90ADE63-836D-4AC3-A63F-AFA4018E01DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
